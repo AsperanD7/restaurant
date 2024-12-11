@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('./images/pexels-ella-olsson-572949-1640773.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center fixed;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+.container{
+    
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+
+.container h1{
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    display:inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:orangered;
+    padding: 5px;
+    transition: 3.5s;
+}
+
+.content{
+    position:absolute;
+    top:45%;
+    left:30%;
+    text-align: center;
+}
+
+.content h2{
+    color:orangered;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+
+    
+.hero{
+    padding: 40px;
+    background-color: rgba(242, 242, 242, 0.9);
+    text-align: center;
+    color: orangered;
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-top: 400px; 
+}
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
